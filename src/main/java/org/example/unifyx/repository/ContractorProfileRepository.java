@@ -11,7 +11,7 @@ import java.util.List;
 @Repository
 public interface ContractorProfileRepository extends JpaRepository<ContractorProfile, Integer> {
     // You can add custom queries here if necessary
-    @Query("SELECT c FROM ContractorProfile c WHERE LOWER(c.siteAddress) = LOWER(:siteAddress)")
+    @Query("SELECT c FROM ContractorProfile c WHERE LOWER(c.address) = LOWER(:address)")
     List<ContractorProfile> findBySiteAddressIgnoreCase(@Param("siteAddress") String siteAddress);
 
 }
