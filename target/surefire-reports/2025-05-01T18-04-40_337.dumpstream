@@ -1,0 +1,5 @@
+# Created at 2025-05-01T18:04:41.688
+Boot Manifest-JAR contains absolute paths in classpath 'D:\project 1\Unifyx\Unifyx_Backend\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+
